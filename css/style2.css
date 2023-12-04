@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(207, 251, 255);
+}
+
+.part-1 {
+    width: 60%;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.title-container {
+    width: 450px;
+    background-color: rgb(213, 247, 255);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.Title1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(22, 143, 143);
+}
+
+.menu {
+    display: inline-block;
+    margin-top: 20px;
+    width: 450px;
+    height: 30px;
+}
+
+.block1 {
+    background-color: rgb(213, 247, 255);
+    padding-top: 5px;
+    float: left;
+    width: 49%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.block2 {
+    background-color: rgb(213, 247, 255);
+    float: right;
+    padding-top: 5px;
+    width: 49%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 143, 143);
+}
+
+.block1 :hover {
+    color: rgb(81, 95, 98);
+}
+
+.block2 :hover {
+    color: rgb(81, 95, 98);
+}
+
+
+/* Parte 2 */
+
+.part-2 {
+    color: rgb(22, 143, 143);
+    width: 600px;
+    height: 420px;
+    background-color: rgb(213, 247, 255);
+    padding-top: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.operation-title {
+    margin-top: -50px;
+}
+
+.x {
+    padding-top: 10px;
+}
+
+.xcero {
+    padding-top: 10px;
+}
+
+.xuno {
+    padding-top: 10px;
+}
+
+.xdos {
+    padding-top: 10px;
+}
+
+input {
+    border: 1;
+    border-color: rgb(200, 251, 253);
+    background-color: rgb(212, 241, 248);
+    outline: none;
+}
+
+.boton {
+    margin-top: 10px;
+}
+
+.b1 {
+    border: 0;
+    color: rgb(22, 143, 143);
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(212, 241, 248);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.resultado {
+    padding-top: 15px;
+}
+
+.caja-porcentaje {
+    width: 500px;
+    margin-top: 15px;
+    height: 140px;
+}
+
+.Porcent {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.fn {
+    margin-top: 10px;
+    border: 0;
+    color: rgb(22, 143, 143);
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(212, 241, 248);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.result2 {
+    padding-top: 10px;
+}
+
+.selector {
+    padding-right: 400px;
+}
+
+.x2 {
+    background-color: rgb(167, 193, 199);
+}
+
+.fx2 {
+    background-color: rgb(167, 193, 199);
+}
+
+.op1 :hover {
+    color: rgb(81, 95, 98);
+}
+
+.op2 :hover {
+    color: rgb(81, 95, 98);
+}

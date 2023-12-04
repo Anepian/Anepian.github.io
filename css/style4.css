@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(207, 251, 255);
+}
+
+
+/*   */
+
+.base-title {
+    width: 250px;
+    background-color: rgb(213, 247, 255);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 120px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(22, 143, 143);
+}
+
+.base {
+    width: 500px;
+    height: 260px;
+    background-color: rgb(213, 247, 255);
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-top: 30px;
+}
+
+.select-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgb(22, 143, 143);
+}
+
+.block1 {
+    background-color: rgb(213, 247, 255);
+    padding-top: 5px;
+    margin-top: 5px;
+    float: center;
+    width: 35%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.block2 {
+    background-color: rgb(213, 247, 255);
+    float: center;
+    padding-top: 5px;
+    margin-top: 15px;
+    width: 40%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.block3 {
+    background-color: rgb(213, 247, 255);
+    float: center;
+    padding-top: 5px;
+    margin-top: 15px;
+    width: 49%;
+    height: 35px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(22, 143, 143);
+}
+
+.block1 :hover {
+    color: rgb(81, 95, 98);
+}
+
+.block2 :hover {
+    color: rgb(81, 95, 98);
+}
+
+.block3 :hover {
+    color: rgb(81, 95, 98);
+}
+
+.footer {
+    margin-top: 80px;
+    font-size: 18px;
+    color: rgb(22, 143, 143);
+}
