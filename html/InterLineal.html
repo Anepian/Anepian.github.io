@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interpolación lineal</title>
+    <script src="../code.js"></script>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <center>
+        <div class="part-1">
+            <div class="title-container">
+                <h1 class="Title1">Interpolación Lineal</h1>
+            </div>
+            <div class="menu">
+                <div class="block1">
+                    <a href="../html/InterCuadra.html">Interpolación Cuadratica</a>
+                </div>
+                <div class="block2">
+                    <a href="../html/LagraPG.html">Interpolación de Lagrange</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="part-2">
+            <h3 class="operation-title">Operación:</h3>
+            <div class="x">
+                <label for="x">x: </label><input type="number" id="x"><br>
+            </div>
+            <div class="xcero">
+                <label for="x0">x0: </label><input type="number" id="x0">
+                <label for="fx0">f(x0): </label><input type="number" id="fx0">
+            </div>
+            <div class="xuno">
+                <label for="x1">x1: </label><input type="number" id="x1">
+                <label for="fx1">f(x1): </label><input type="number" id="fx1">
+            </div>
+            <div class="boton">
+                <button class="b1" onclick="InterLineal()">Calcular</button>
+                <div class="resultado" id="resultado"></div>
+            </div>
+            <div class="caja-porcentaje">
+                <p class="Porcent">Opcional: Calcular porcentaje de error</p>
+                <label>Ingresa el valor exacto:</label>
+                <input type="number" id="Exacto"><br>
+                <button class="fn" onclick="errorLineal()">Calcular</button>
+                <div class="result2" id="result2"></div>
+            </div>
+        </div>
+    </center>
+</body>
+
+</html>
